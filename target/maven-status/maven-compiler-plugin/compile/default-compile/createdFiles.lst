@@ -1,0 +1,5 @@
+io/spring/boot/guedes/controller/UsuarioController.class
+io/spring/boot/guedes/entity/Usuario.class
+io/spring/boot/guedes/repository/UsuarioRepository.class
+io/spring/boot/guedes/Main.class
+io/spring/boot/guedes/controller/IndexController.class
