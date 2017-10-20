@@ -1,8 +1,9 @@
-
 package io.spring.boot.guedes.entity;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.TextIndexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.TextScore;
 
 /**
  *
@@ -10,6 +11,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Document
 public class Usuario {
+    
+    @TextIndexed
+    private String nome;
+    
+    @TextIndexed
+    private String sobrenome;
+    
+    @TextScore
+    private Float score;
     
     @Id
     private String id;
@@ -21,8 +31,6 @@ public class Usuario {
     public void setId(String id) {
         this.id = id;
     }
-    
-    private String nome;
 
     public String getNome() {
         return nome;
@@ -30,6 +38,22 @@ public class Usuario {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
+    public Float getScore() {
+        return score;
+    }
+
+    public void setScore(Float score) {
+        this.score = score;
     }
     
     

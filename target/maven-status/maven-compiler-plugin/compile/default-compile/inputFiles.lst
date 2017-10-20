@@ -1,5 +1,16 @@
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/repository/DiarioRepository.java
 /home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/repository/UsuarioRepository.java
 /home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/controller/UsuarioController.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/config/CargaInicial.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/controller/ModuloController.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/controller/AlunoController.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/repository/ModuloRepository.java
 /home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/entity/Usuario.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/repository/AlunoRepository.java
 /home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/controller/IndexController.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/entity/EntidadeGenerica.java
 /home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/Main.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/controller/DiarioController.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/entity/Modulo.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/entity/Diario.java
+/home/azooiverde/NetBeansProjects/SpringBoot/src/main/java/io/spring/boot/guedes/entity/Aluno.java
